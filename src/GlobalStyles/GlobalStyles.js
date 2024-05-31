@@ -14,12 +14,13 @@ export const GlobalStyles = createGlobalStyle`
   
   body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Big Shoulders Display"
   }
 
   a{
     text-decoration: none;
     color: inherit;
+    
   }
 
   ul{
@@ -28,4 +29,7 @@ export const GlobalStyles = createGlobalStyle`
     margin-bottom: 0;
     padding-left: 0;
   }  
+  p{
+    font-family: "Lexend Deca"
+  }
 `;

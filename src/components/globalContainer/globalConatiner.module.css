@@ -1,0 +1,29 @@
+.box{
+    width: 920px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.orange{
+    background-color: orange;
+}
+
+.aqua{
+    background-color: #006971;
+}
+.green{
+    background-color: #004140;
+}
+.textoragne{
+    color: orange;
+}
+
+@media only screen and (max-width: 425px) {
+    .box{
+        display: block;
+        width: 327px;
+        height: 1326px;
+        margin: 0 auto;
+    }
+  }

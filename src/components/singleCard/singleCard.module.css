@@ -1,0 +1,107 @@
+.box{
+    width: 33.33%;
+}
+.orange{
+    background-color: orange;
+}
+
+.aqua{
+    background-color: #006971;
+}
+.green{
+    background-color: #004140;
+}
+
+a{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 146px;
+    margin-left: 48px;
+    border-radius: 50px;
+    height: 48px;
+    align-items: center;
+    font-family: "Lexend Deca"
+}
+a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.first{
+    border-radius: 8px 0px 0px 8px;
+}
+.second{
+    border-radius: 0px 0px 0px 0px;
+}
+.third{
+    border-radius: 0px 8px 8px 0px;
+}
+img{
+   margin-top: 48px;
+   margin-left: 48px; 
+   margin-bottom: 35px;
+   width: 64px;
+   height: 40px;
+}
+
+h1{
+    color: white;
+    margin-left: 48px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-family: "Big Shoulders Display"
+}
+p{
+    font-size: 15px;
+    margin-left: 47px;
+    margin-bottom: 83px;
+    margin-right: 47px;
+    line-height: 2;
+    color: white;
+}
+.orangetext{
+    color: orange;
+}
+.aquatext{
+color:#006971;
+}
+.greentext{
+    color:#004140;
+}
+@media only screen and (max-width: 425px) {
+    .box{
+        width: 327px;
+        height: 442px;
+        padding-top: 48px;
+
+    }
+    img{
+      margin-top: 0px;
+        margin-left: 48px; 
+        margin-bottom: 35px;
+        width: 64px;
+        height: 40px;
+     }
+     
+    p{
+        font-size: 15px;
+        margin-left: 47px;
+        margin-bottom: 25px;
+        margin-right: 47px;
+        line-height: 2;
+        color: white;
+    }
+    .first{
+        border-radius: 8px 8px 0px 0px;
+    }
+    .second{
+        border-radius: 0px 0px 0px 0px;
+    }
+    .third{
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    
+  }
